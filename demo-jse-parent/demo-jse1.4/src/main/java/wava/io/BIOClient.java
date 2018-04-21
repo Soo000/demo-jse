@@ -9,9 +9,9 @@ public class BIOClient {
 	
 	public static void main(String[] args) {
 		try {
-			for (int i = 0; i < 1000; i++) {
+			for (int i = 1024; i < 1026; i++) {
 				Socket socket = new Socket();
-				socket.connect(new InetSocketAddress("127.0.0.1", 1024));
+				socket.connect(new InetSocketAddress("127.0.0.1", i));
 				System.out.println("客户端 " + socket + " 连接完成!");
 			}
 		} catch (UnknownHostException e) {
