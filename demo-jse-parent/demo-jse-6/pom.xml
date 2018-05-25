@@ -7,12 +7,5 @@
 		<artifactId>demo-jse-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>demo-jse1.4</artifactId>
-	
-	<dependencies>
-	   <dependency>
-	       <groupId>junit</groupId>
-	       <artifactId>junit</artifactId>
-	   </dependency>
-	</dependencies>
+	<artifactId>demo-jse-6</artifactId>
 </project>
