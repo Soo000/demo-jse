@@ -18,6 +18,9 @@ public class DemoScheduledExecutorService {
 		long period2 = 2;
 		// 从现在开始2秒钟之后，每隔2秒钟执行一次job2
 		service.scheduleWithFixedDelay(new DemoScheduledExecutorServiceTask("job2"), initialDelay2, period2, TimeUnit.SECONDS);
+		
+		ScheduledExecutorService singleThreadScheduledPool = Executors.newSingleThreadScheduledExecutor();
+		ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(10);
 	}
 	
 }
