@@ -1,4 +1,4 @@
-package wava.util.concurrent;
+package wava.util.concurrent.scheduled;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
